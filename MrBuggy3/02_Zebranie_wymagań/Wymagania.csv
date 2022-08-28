@@ -1,0 +1,40 @@
+ID,Wymaganie w oparciu o specyfikację
+1,"login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+2,czas odpowiedzi interfejsu powinien wynosić 1sec
+3,"hasło musi składać się z co najmniej 20 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny"
+4,Wymagania środowiskowe: Część kliencka - Windows 7/8/8.1
+5,Wymagania środowiskowe: Część serwerowa - Windows 7
+6,Nie jest potrzebny instalator.
+7,"defekty oceniane według następujących zasad: błąd trywialny (1-2 pkt), błąd normalny (3-4pkt), błąd krytyczny (5-6 pkt), za zgłoszenie błedu, który nie jest błędem -2 pkt, 0 pkt za brak zgłoszenia błędu w zadaniu"
+8,W oknie aplikacji musi się znaleźć ikona MrBuggy 3
+9,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła
+10,wiadomość o błędzie po każdym błędnym podaniu hasła
+11,jednen defekt w każdym z zadań
+12,dostęp do części serwerowej aplikacji musi być zabezpieczony loginem i hasłem
+13,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB
+14,tokeny dla konta muszą być generowane losowo
+15,Tryb kapitana drużyny z prawami do raportowania defektów 
+16,Aby uniknąć pomyłek użytkownik musi potwierdzić chęć wykonania tej czynności. Po wciśnięciu przycisku “Zakończ” wszystkie dane dotyczące użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane są do pliku binarnego.
+17,Dane z części klienckiej mogą zostać wyeksportowane w postaci pliku tekstowego
+18,Dane z części klienckiej mogą zostać zaimportowane w części serwerowej z wygenerowanego wcześniej pliku tekstowego
+19,Czas trwania rundy wynosi 2h
+20,raport zbiorczy ma się generować nie dłużej niż 15 sekund
+21,aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera
+22,to jest max rozmiar okna aplikacji - okno się nie skaluje
+23,przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda
+24,aplikacja serwerowa musi być w stanie przyjąć w jednym momencie do 50 raportów użytkowników
+25,"raport zbiorczy uwzględnia poniższe dane:
+* Pozycja w klasyfikacji generalnej
+*Nazwa zawodnika lub drużyny
+* Ilość przyznanych punktów za każde zadanie danego zawodnika/drużyny
+* Suma zdobytych punktów przez danego zawodnika/drużynę"
+26,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim."
+27,Okno aplikacji powinno dzielić się na dwie części - okno “Zadania” oraz “Menu boczne” ułożone po prawej stronie.
+28,Wszystkie zadania mają zostać zaimplementowane w aplikacji - wewnętrznie
+29,Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio następnego i poprzedniego zadania.
+30,W przypadku utraty połączenia sieciowego użytkownik powinien mieć dalszą możliwość wykonywania wszystkich czynności w aplikacji.
+31,"Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami. Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem"
+32," musi zostać zaimplementowana procedura zakładania, przywracania oraz odblokowywania konta"
+33,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”.
+34,Pole “Opis problemu” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie
+35,Dostęp przez linię komend do interfejsu graficzny dla części serwerowej
