@@ -1,0 +1,38 @@
+ID,"Miejsce w specyfikacji, gdzie jest błąd",Co jest błędem,Jak powinno być
+1,"str 7, 11","Język programowania oraz baza danych urzyta podczas tworzenia aplikacji nie są zdefiniowane; Aplikacja serwerowa ma zostać stworzona przy
+wykorzystaniu języka Java7.",nie zdefiniowane
+2,"str 8, 10","Tryby różnią się możliwością raportowania defektów. W trybie członka drużyny możliwość ta jest zablokowana; Funkcja ta jest dostępna
+we wszystkich trybach pracy aplikacji.",W trybie członka drużyny możliwość ta jest zablokowana
+3,str 10,Przycisk “Zaraportuj defekt” - niejasne działanie,
+4,"str 10, 11","Przycisk “Zaraportuj defekt” - na schemacie ""Znalazłem defekt""","""Znalazłem defekt"""
+5,str 10,Pole “Czas” - ile ma trwać runda?,2h
+6,str 10, Pole “Czas” - format czasu,hh:mm:ss
+7,str 6,"Cztery wersje, a opisane tylko trzy",
+8,str 12,"login musi składać się z 2 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",min 4 znaki
+9,str 8,W aplikacji dostępnych ma być nie mniej niż 15 zadań (problemów) - jak jest max ilość zadań,100
+10,str 11,"Przycisk ""Status połączenia"" nieopisany",
+11,str 10,Przyciski nawigacyjne - “Następne” i “Poprzednie” - bieżące ????,"bez ""bieżące"""
+12,str 11,"Mockup nie zawiera informacji o ilości zadań, możliwości przewijania listy","Widać 15 zadań, jest pasek przewijania"
+13,str 9,Wyświetlać klasyfikację generalną na zewnętrznym monitorze - jak ma wyglądać klasyfikacja?,
+14,str 10,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim - generalnie brak komunikatów i informacji.",
+15,"str 6,14",ilość zadań w wersji demo,1
+16,"str 5,13",czy jest potrzebny instalator?,nie
+17,,"może warto dodać jasną informację, że aplikacja kliencka jest aplikacją desktopową",
+18,str 12,czas odpowiedzi interfejsu - niejasny,1 sec.
+19,str 12,wydajność aplikacji liczona ze wzoru - bardzo niejasny opis,
+20,str 10,Po wciśnięciu przycisku “Zakończ” wszystkie dane dotyczące użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane są do pliku binarnego.,
+21,"str 7, 10",formaty plików - czy zapis lokalny i wysłanie na serwer to te same pliki?,są to różne pliki
+22,str 13,konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części - jak użytkownik będzie o tym informowany?,wiadomość o błędzie po każdym błędnym podaniu hasła
+23,str 13,tokeny do konta mają być generowane losowo - o co chodzi z tokenami???,
+24,str 12,wzór - jednostki !!!!,
+25,str 13,"konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła lub jego części - część hasła, to błędne hasło","wykreślić ""część hasła"""
+26,str 14,źle określone klasy defektów,defekty krytyczne (od 5 do 6 pkt)
+27,str 11,"""być estetyczne"" - ??????",
+28,str 8,"tryb drużyny - jak jest tworzona, jak działa aplikacja, czy kapitan jest oznaczony",
+29,str 14 ,czy punkty mogą być ujemne?,mogą
+30,str 4,Tryb członka drużyny - tryb pracy aplikacji dla uczestnika Mistrzostw w kategorii drużynowej z prawami ograniczonymi (????) do szukania defektów.,nie może raportować - jedyne ograniczenie
+31,str 11,Interfejs graficzny dla części serwerowej - ????,dostęp przez linię komend
+32,str 8,"Aplikacja nie posiada generatora zadań. Wszystkie zadania mają zostać zaimplementowane w aplikacji. - jak są implementowane (import, wewnętrznie)",wewnętrzenie
+33,str 11,"Okno aplikacji powinno mieścić się w całości na ekranie monitora
+o rozdzielczości 1024x768 - czy okno aplikacji skaluje się",to jest max rozmiar okna aplikacji - okno się nie skaluje
+34,str 12,wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB1 - ????,2MB
