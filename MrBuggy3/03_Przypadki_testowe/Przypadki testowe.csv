@@ -1,0 +1,69 @@
+TCID,ID wymagania,Tytuł,Warunki wstępne,ID Kroku,Opis kroku,Oczekiwany rezultat
+1,1,Logowanie za pomocą poprawnego loginu,Aplikacja MrBuggy 3 jest uruchomiona.,1,"W pole 'login' wpisuję login składający się z 6 znaków i zawierający co najmniej jedną małą i jedną wielką literę, jeden znak specjalny oraz jedną cyfrę.",Aplikacja pozwala wpisać login
+,,,,2,"W pole 'hasło' wpisuję hasło składające się z 20 znaków i zawierające co najmniej jedną małą i jedną wielką literę, jeden znak specjalny oraz jedną cyfrę.",Aplikacja pozwala wpisać hasło
+,,,,3,Klikam przycisk 'Zaloguj się',Aplikacja poprawnie loguje mnie na konto użytkownika
+2,,Poprawne zalogowanie się do aplikacji przez istniejącego użytkownika poprawnym hasłem,Uruchomiona aplikacja MrBuggy 3,1,Podaj login,Login został przyjęty
+,,,login: tTester1!,2,Wpisz hasło,Hasło zostało przyjęte
+,,,hasło: PrzypadekTestowy123!,3,Naciśnij przycisk zaloguj,Użytkownik został poprawnie zalogowany
+3,,Nie jest potrzebny instalator.,plik ZIP pobrany na dysk,S1,użytkownik wypakuje pliki,we folderze znajduje się plik wykonawczy
+,,,wypakowany folder z ZIP,S2,użytkownik uruchamia plik wykonawczy,aplikacja uruchamia się bez instalacji
+4,,Blokowanie konta po 3 błędnych hasłach,Uruchom aplikację MrBuggy 3,1,"W polu login wpisz ""Dudeł""",
+,,,,2,"W polu hasło wpisz kilka losowych znaków (min. cztery), nie będących hasłem ""Adrian""",
+,,,,3,"Wciśnij enter lub kliknij przycisk ""Zaloguj się""",
+,,,,4,Powtórz kroki 1-3 kolejne dwa razy,"Wyświetla się okno dialogowe z czerwonym komunikatem ""Konto zablokowane. Skontaktuj sie z administratorem strony lub odzyskaj hasło"""
+5,,Wystąpienie jednego defektu w każdym z zadań,Dostęp do aplikacji MrBuggy 3,1,Użytkowniik loguje sie poprawnym loginem i hasłem do aplikacji,"Okno aplikacji wyświetla sie w dwóch częściach - okno “Zadania” oraz
+“Menu boczne” ułożone po prawej stronie. "
+,,,Użytkownik posiada aktywne konto do aplikacji w trybie kapitana drużyny,2,Użytkownik klika w losowe zadanie z menu bocznego,Zadanie otwiera się poprawnie
+,,,,3,Użytkownik przyglada się zadaniu w celu wykrycia defektu.,został znaleziony jeden defekt w zadaniu.
+,,zgłaszane defekty oceniane według specyfikacji,1. zainstalowana i uruchomiona aplikacja Mr Buggy 3 2. zalogowany użytkownik z dostępem do zgłaszania błędów,1,"Otwieram okno ""zadania""","okno ""zadania wyświetla się po prawej stronie pulpitu"
+,,,,2," Klikam przycisk ""znalazlem defekt"" znajdujący się w menu aplikacji po lewej stronie pulpitu",Otwiera się okno do zgłaszania defektu
+,,,,3,"wprowadzam opis defektu i klikam przycisk ""zgłoś""","pojawia się komunikat ""zgłoszenie defektu przebiegło pomyślnie"" And pojawia się kolejny komunikat ""zgłoszony błąd krytyczny, ilość przyznanych pkt to 6. Gratulacje"""
+6,,logowanie do systemu - zabezpieczenie loginem i hasłem,Otwieram aplikację MrBuggy 3,1,Klikam w ikonę logowanie,Otworzył się formularz logowania zawierający miejsce do wpisania loginu i hasła
+,,,,2,"Wpisuję login składający się z 4 do 8 znaków, składający się z min. jednej małej litery, jednej wielkiej litery, jednej cyfry i jednego znaku specjalnego","W polu loginu pojawił się login, który wpisałam"
+,,,,3,Klikam przycisk zaloguj,"Pojawił się komunikat ""Wpisz hasło"""
+,,,,4,Usuwam wpisany login,okno loginu jest puste
+,,,,5,"wpisuję hasło składające się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego",w polu hasła pojawiły się gwiazdki odpowiadające ilości znaków wpisango hasła
+,,,,6,Klikam przycisk zaloguj,"pojawił się komunikat ""wpisz login"""
+,,,,7,"Wpisuję login składający się z 4 do 8 znaków, składający się z min. jednej małej litery, jednej wielkiej litery, jednej cyfry i jednego znaku specjalnego","W polu loginu pojawił się login, który wpisałam"
+,,,,8,"wpisuję hasło składające się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego",w polu hasła pojawiły się gwiazdki odpowiadające ilości znaków wpisango hasła
+,,,,9,Klikam przycisk zaloguj,zalogowanie przebiegło poprawnie
+7,,Test uprawnień do raportowania defektów w zespole - pozytywny,Uruchomiona na desktopie aplikacja MrBuggy. OS: Windows 7. Przyznana rola w zespole - kapitan. Tryb kapitana włączony. Otwarte losowe zadanie ze zlokalizowanym defektem.,S1,"Zatwierdzam znaleziony defekt przyciskiem ""Znalazłem defekt""",Aplikacja potwierdza znaleziony defekt zmianą koloru-statusu wykonywanego zadania.
+,,,,S2,"Klikam przycisk ""Raportuj""",Defekt zostaje umieszczony w raporcie
+8,,Eksport danych z części klienckiej do pliku tekstowego - scenariusz pozytywny,"Aplikacja MrBuggy3 została uruchomiona, dane w części klienckiej zostały uzupełnione poprawnie, kliknięty został przycisk ""Zakończ"", widzimy okno dialogowe z przyciskiem ""Wyeksportuj do pliku""",1,"Klikamy w przycisk ""Wyeksportuj do pliku""","Wyświetlone zostaje okno dialogowe ""Gdzie zapisać plik?"" z możliwością wskazania lokalizacji na dysku komputera"
+,,,,2,"Wskazujemy lokalizację do zapisania pliku i zatwierdzamy ją przyciskiem ""Zapisz tutaj""",Plik zostaje zapisany we wskazanej lokalizacji
+,,,,3,"Wyświetlone zostaje okno dialogowe ""Plik został poprawnie wyeksportowany""","Wyświetlone zostaje okno dialogowe ""Plik został poprawnie wyeksportowany"""
+,,,,4,"Zamykamy okno dialogowe przyciskiem ""X""",Okno zostaje zamknięte
+9,,weryfikacja czasu trwania rundy ,uruchomiona aplikacja Mr Buggy3 w części klienckiej,1,rozpocznij rundę,"Pole ""czas"" wyświetla czas trwania rundy w ujeciu hh:mm:ss. Czas rundy nie przekracza 2h"
+,,,,2,zakończ rundę po upływie 2h,
+,,,,3,zweryfikuj czas trwania rundy,
+10,,Zmiany rozmiaru okna aplikacji,Użytkownik uruchomia aplikację MrBuggy 3,1,Mam uruchomioną aplikację,"Widzę, że aplikacja uruchomiła się poprawnie"
+,,,,2,Przyglądam się rozmiarowi uruchomionej aplikacji,"Widzę, że aplikacja uruchomiła się w całości na ekranie monitora o rozdzielczości 1024x768 pikseli"
+,,,,3,Zmieniam rozdzielczość monitora na 4K,"Widzę, że aplikacja nie zeskalowała swojego rozmiaru"
+11,,Czas trwania przełączania pomiędzy zadaniami,Włączona aplikacja MrBuggy 3,1,Odnalezienie położenia przycisku Następne,"Przycisk Następne powinien znajdować się poniżej Listy zadań, po prawo od przycisku Poprzednie"
+,,,Bycie zalogowanym w trybie członka drużyny,2,Najechanie kursorem na przycisk Następne,Kolor przycisku Następne powinien się zmienić z białego na czerwony
+,,,Włączone okno z aktywnym zadaniem,3,Kliknięcie przycisku Następne,W czasie nie dłuższym niż 1 sekunda w oknie zadania wyświetla się kolejne zadanie
+12,,Test przycisków nawigacyjnych - “Następne” i “Poprzednie” ,uruchom aplikację Mr Buggy,1,"Patrzę na okno aplikacji i szukam przycisków nawigacyjnych ""następne"" i ""poprzednie""",Przyciski są zlokalizowane z prawej strony pod listą zadań
+,,,,2,"Widząc, po lewej stronie w oknie uruchomione zadanie klikam przycisk ""następne""",pokazuje mi się kolejne zadanie
+,,,,3,Klikam przycisk poprzednie,pokazuje mi się zadanie poprzednio widoczne
+13,,wiadomość o błędzie po każdym błędnym podaniu hasła,Otwarty ekran logowania aplikacji MrBuggy 3 znany login oraz błędne hasło,1,Podaj poprawny login w przeznaczonym do tego polu,Login wyświetla się prawidłowo
+,,,,2,Podaj błędne hasło w przeznaczonym do tego polu.,Błędne hasło wpisane prawidłowo
+,,,,3,Kliknij przycisk logowania,Wyświetla się komunikat o błędnym haśle
+,,,,4,Ponownie podaj błędne hasło w przeznaczonym do tego polu.,Błędne hasło wpisane prawidłowo
+,,,,5,Kliknij przycisk logowania,Wyświetla się komunikat o błędnym haśle
+,,,,6,Po raz trzeci podaj błędne hasło w przeznaczonym do tego polu.,Błędne hasło wpisane prawidłowo
+,,,,7,Kliknij przycisk logowania,Wyświetla się komunikat o błędnym haśle
+,,,,8,Każdorazowe powtórzenie kroków od 1 do 3,Każdorazowo po wpisaniu błędnego hasła wyświetla się adekwatny komunikat
+14,,"Wygląd i nawigacja w polu ""Lista zadań""","OS Windows 7,
+ Otwarta aplikacja MrBuggy3,
+ Wykonane co najmniej jedno zadanie z aplikacji,
+ Otwarte zadanie do zrobienia",1,"W Menu bocznym po prawej stronie okna aplikacji widzę ""Listę zadań""","""Lista zadań"" ma możliwość przewijania i wyświetla 15 zadań"
+,,,,2,"za pomocą przewijania wyszukuję na liście numer zadania otwartego w oknie ""Zadania""","przewijanie działa, a numer otwartego zadania podświetlony jest na liście w kolorze …"
+,,,,3,wyszukuję na liście numer zadania wykonanego,numer zadania podświetlony jest na liście w kolorze …
+,,,,4,wyszukuję na liście numer zadania do zrobienia,numer zadania podświetlony jest na liście w kolorze …
+15,,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”,Jako zalogowany użytkownik aplikacji MyBuggy,1,"klikam zadanie numer 1 z listy zadań i obserwuje pole ""Nr zadania""","w polu Zadanie wyświetla się pierwsze zadanie oraz w polu ""Nr zadania"" wyświetla się treść ""Zadanie 1"""
+,,,,2,"klikam zadanie numer 3 z listy zadań i obserwuje pole ""Nr zadania""","w polu Zadanie wyświetla się trzecie zadanie oraz w polu ""Nr zadania"" wyświetla się treść ""Zadanie 3"""
+,,,,3,"klikam ponownie zadanie numer 1 z listy zadań  i obserwuje pole ""Nr zadania""","w polu Zadanie wywietla się ponownie zadanie pierwsze oraz w polu ""Nr zadania"" wyswietla się treść ""Zadanie 1"""
+16,,Pole “Opis problemu” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie,1. Aplikacja Mr.Buggy 3 jest uruchomiona.,1,"Porównaj pole ""Opis problemu"" z polem ""Zadania"" weryfikując czy informacja jest dopasowana do wyświetlanego zadania.","Pole ""Opis problemu"" zawiera informację dopasowaną do wyświetlanego zadania w polu ""Zadania""."
+,,,2. Pojedyncze zadanie z Listy zadań jest aktywne.,2,Sprawdź czy została wyświetlona punktacja.,"Pole ""Opis problemu"" zawiera punktację."
+17,,Sprawdzenie pamięci operacyjnej aplikacji (100MB),Dostęp do komputera,1,Uruchamiam Aplikację,Aplikacja otwiera się poprawnie
+,,,Dostęp do aplikacji MrBuggy 3,2,Sprawdzam właściwości aplikacji,Aplikacja nie zajmuje więcej niż 100MB
