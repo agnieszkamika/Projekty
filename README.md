@@ -1,4 +1,4 @@
-# Projekty
+# Portfolio
 Bardzo ważny tekst o moim repozytorium
 
 # Kolejny nagłowek
