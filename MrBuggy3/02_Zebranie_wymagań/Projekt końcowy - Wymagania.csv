@@ -1,0 +1,42 @@
+ID,Wymaganie w oparciu o specyfikację,część aplikacji
+1,Nie jest potrzebny instalator. Wymagania środowiskowe: Część kliencka - Windows 7/8/8.1,kliencka
+2,Rejestracja w aplikacji nowego użytkownika,kliencka
+3,"Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny",kliencka
+4,"Hasło musi składać się z co najmniej 20 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę, jeden znak specjalny",kliencka
+5,"Wiadomość o błędzie po każdym błędnym podaniu hasła, konto musi zostać zablokowane po 3 krotnym wpisaniu błędnego hasła,",kliencka
+6,"Wybór trybu pracy podczas logowania: tryb kapitana, członka drużyny lub zawodnika",kliencka
+7,Rozmiar okna aplikacji 1024x768 jest max - okno się nie skaluje,kliencka
+8,"Wszystkie komunikaty, informacje oraz nazwy klawiszy w interfejsie graficznym muszą być w języku polskim.",kliencka
+9,"W oknie aplikacji musi się znaleźć ikona MrBuggy 3
+ Okno aplikacji dzieli się na 2 części:
+ *okno zadania
+ *menu boczne po prawej stronie, które zawiera wszystkie pola zgodne z mockup ze specyfikacji",kliencka
+10,"Wszystkie zadania mają zostać zaimplementowane w aplikacji - wewnętrznie - 100 zadań zaimplementowanych, wyświetlane jest 15 zadań w kolejności losowej",kliencka
+11,"Jeden defekt w każdym z zadań, punktacja za zadania od 1 do 6;
+ defekty oceniane według następujących zasad: błąd trywialny (1-2 pkt), błąd normalny (3-4pkt), błąd krytyczny (5-6 pkt), za zgłoszenie błedu, który nie jest błędem -2 pkt, 0 pkt za brak zgłoszenia błędu w zadaniu",kliencka
+12,Przyciski nawigacyjne - “Następne” i “Poprzednie” umożliwiają przeniesienie się do odpowiednio następnego i poprzedniego zadania.,kliencka
+13,"Pole “Lista zadań” - umożliwia nawigację pomiędzy zadaniami. Zadania bez udzielonej odpowiedzi, z udzieloną odpowiedzią i aktualnie wyświetlone muszą się odznaczać innym kolorem",kliencka
+14,"Musi zostać zaimplementowana procedura zakładania, przywracania oraz odblokowywania konta",kliencka
+15,Pole “Nr zadania” - podaje numer zadania wyświetlonego w oknie “Zadania”. Pole “Opis zadania” - zawiera ogólną informację na temat zadania wyświetlonego w polu “Zadania” wraz z ilością punktów za dane zadanie,kliencka
+16,"Tryb kapitana drużyny i zawodnika z prawami do raportowania defektów, tryb członka drużyny bez możliwości raportowania, defektów, brak możliwości zmiany trybu pracy podczas działania aplikacji",kliencka
+17,Po wciśnięciu przycisku “Zakończ” wszystkie dane dotyczące użytkownika oraz rozwiązanych przez niego zadań testowych eksportowane do części serwerowej. Okno dialogowe potwierdzające chęć zakończenia czynności w aplikacji. Generowanie dziennika zdarzeń części klienckiej Czas odpowiedzi interfejsu powinien wynosić 1sec,kliencka
+18,Przełączanie pomiędzy zadaniami nie może być dłuższe niż 1 sekunda,kliencka
+19,"Czas trwania rundy wynosi 2h, czas w formacie gg:mm:ss odliczany do zakończenia rundy",kliencka
+20,Wszystkie czynności w aplikacji są możliwe do wykonania w przypadku utraty połączenia sieciowego,kliencka
+21,Dane z części klienckiej mogą zostać wyeksportowane w postaci pliku tekstowego,kliencka
+22,Aplikacja kliencka po uruchomieniu nie może zajmować więcej niż 100MB pamięci operacyjnej komputera,kliencka
+23,Wielkość pliku z kopią zapasową aplikacji klienckiej nie może przekraczać 2MB,kliencka
+24,Wymagania środowiskowe: Część serwerowa - Windows 7,serwerowa
+25,dostęp do części serwerowej aplikacji musi być zabezpieczony loginem i hasłem,serwerowa
+26,tokeny dla konta muszą być generowane losowo,serwerowa
+27,Dane z części klienckiej mogą zostać zaimportowane w części serwerowej z wygenerowanego wcześniej pliku tekstowego,serwerowa
+28,raport zbiorczy ma się generować nie dłużej niż 15 sekund,serwerowa
+29,aplikacja serwerowa musi być w stanie przyjąć w jednym momencie do 50 raportów użytkowników,serwerowa
+30,"raport zbiorczy uwzględnia poniższe dane: 
+ * Pozycja w klasyfikacji generalnej 
+ *Nazwa zawodnika lub drużyny 
+ * Ilość przyznanych punktów za każde zadanie danego zawodnika/drużyny 
+ * Suma zdobytych punktów przez danego zawodnika/drużynę",serwerowa
+31,Dostęp przez linię komend do interfejsu graficzny dla części serwerowej,serwerowa
+32,wersja demo zawiera jedno zadanie: kalkulator z błędem dzielenia przez 0,demo
+33,wersja demo różnią się jedynie ilością zadań,demo
