@@ -1,0 +1,177 @@
+﻿"ID","Title","Created By","Created On","Preconditions","Section","Steps"
+"C1","Sprawdzenie instalacji aplikacji","Agnieszka Mika","9/5/2022 8:48 PM","Komputer z systemem Windows 7 lub wyższym
+ Dostęp do internetu 
+ Otwarta strona http://mrbuggy.pl/mrbuggy3/ w przeglądarce","Test Cases","Klikam przycisk ""POBIERZ"" na stonie MrBuggy3
+Wypakowuję archiwum
+Uruchamiam plik wykonawczy"
+"C10","Zmiany rozmiaru okna aplikacji","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Rozdzielczość ekranu ustawiona na 1024x768;
+ Uruchomiona aplikacja Mr Buggy3","Test Cases","Przyglądam się rozmiarowi uruchomionej aplikacji
+Zmieniam rozdzielczość ekranu na 1920x1080"
+"C25","Sprawdzenie pamięci operacyjnej aplikacji (100MB)","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do komputera, 
+ Dostęp do internetu,
+ Zainstalowana aplikacja MrBuggy3","Test Cases","Uruchamiam Aplikację
+Sprawdzam właściwości aplikacji"
+"C28","Sprawdzenie wielkości pliku z kopią zapasową aplikacji klienckiej MrBuggy3","Agnieszka Mika","9/5/2022 8:48 PM","Utworzony plik z kopią zapasową aplikacji MrBuggy3,
+ otwarty katalog z zapisaną kopią zapasową","Test Cases","klikam lewym przyciskiem myszy w plik z kopią, wybieram właściwości pliku
+Odczytuję rozmiar pliku"
+"C2","Rejestracja w aplikacji nowego użytkownika- pozytywny","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Wypełniam formularz rejestracji:
+ Pole ""Login"": Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny
+Pole ""e-mail"": tymczasowy adres e-mail
+Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej
+Klikam przycisk ""ZAREJESTRUJ""
+Na stronie https://temp-mail.org/pl/ wchodzę w mail potwierdzający rejestrację i klikam link aktywacyjny"
+"C3","Rejestracja - negatywny- próba rejestracji zarejestrowany wcześniej adres e-mail","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ten sam co w TCID2","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Wypełniam formularz rejestracji:
+ Pole ""Login"": używam loginu innego niż w przypadku testowego , Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny
+Pole ""e-mail"": tymczasowy adres e-mail
+Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej
+Klikam przycisk ""ZAREJESTRUJ"""
+"C4","Rejestracja - negatywny- próba rejestracji na zarejestrowany wcześniej login","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Wypełniam formularz rejestracji:
+ Pole ""Login"": używam loginu z przypadku testowego TCID2
+Pole ""e-mail"": nowy tymczasowy adres e-mail
+Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej
+Klikam przycisk ""ZAREJESTRUJ"""
+"C5","Rejestracja - negatywny- próba rejestracji bez wpisania danych","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Zostawiam formularz rejestracji niewypełniony i klikam przycisk ""ZAREJESTRUJ""
+Wypełniam pole ""Login"": używam loginu innego niż w przypadku testowego TCID2, Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalnyreszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""
+Wypełniam pole ""e-mail"": nowy tymczasowy adres e-mail, reszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""
+Wypełniam pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%"" reszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej i klikam przycisk""ZAREJESTRUJ"""
+"C6","Rejestracja- negatywny- nieprawidłowe znaki w polu ""Login""","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu, 
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Wypełniam formularz rejestracji loginem o nieprawidłowej ilości znaków
+ Pole ""Login"": login bez dużych liter i znaków specjalnych
+Pole ""e-mail"": nowy tymczasowy adres e-mail
+Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej
+Klikam przycisk ""ZAREJESTRUJ"""
+"C7","Rejestracja - negatywny- nieprawidłowe znaki w polu ""Hasło""","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stronie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja","Klikam w oknie logowania opcję ""Rejestracja""
+Wypełniam formularz rejestracji:
+ Pole ""Login"": używam loginu innego niż w przypadku testowego TCID2, Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny
+Pole ""e-mail"": nowy tymczasowy adres e-mail
+Pole ""Hasło"": Tester123
+Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej
+Klikam przycisk ""ZAREJESTRUJ"""
+"C8","Logowanie -negatywny - błędne podanie hasła i blokada konta","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+login: agamika12
+e-mail: xahene4015@vpsrec.com
+hasło: Testowanie12345!@#$%","Logowanie","W polu ""Login"" wpisuję poprawny login
+W polu ""Hasło"" wpisuję kilka losowych znaków (różnych od poprawnego hasła)
+Klikam przycisk ""ZALOGUJ""
+Powtarzam kroki 1-3 kolejne dwa razy"
+"C9","Logowanie - pozytywny","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+login: agamika12
+e-mail: xahene4015@vpsrec.com
+hasło: Testowanie12345!@#$%","Logowanie","W polu ""Login"" wpisuję poprawny login
+W polu ""Hasło"" wpisuję poprawne hasło
+Klikam przycisk ""ZALOGUJ""
+Klikam przycisk ""DALEJ"""
+"C26","Sprawdzenie procedury przywracania i odzyskiwania konta","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Otwarte okno logowania aplikacji MrBuggy3, przygotowane dane do logowania:
+ login:
+ e-mail:
+ hasło: Testowanie12345!@#$%","Logowanie","Trzykrotnie loguję się z błędnym hasłem
+Klikam ""odzyskaj dostęp do konta""
+Wpisuję adres e-mail i klikam ""Przywróć dostęp""
+Wchodzę na pocztę, odszukuję wiadomość z tymczasowym hasłem, kopiuję przysłane hasło i loguję się używając tymczasowego hasła"
+"C11","Wygląd okna aplikacji - rozmieszczenie i główne pola","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3","Wygląd i funkcje","Przyglądam się oknu aplikacji
+Przyglądam się ""Menu bocznemu"""
+"C12","Sprawdzenie języka komunikatów oraz nazw klawiszy i funkcji","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+ login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%","Wygląd i funkcje","Loguję się używając niepoprawnego hasła do aplikacji i sprawdzam język wszystkich klawisze w oknie logowania
+Loguję się używając poprawnego hasła do aplikacji
+Klikam przycisk""DALEJ""
+Klikam przycisk ""ZAKOŃCZ"""
+"C13","Test przycisków nawigacyjnych - “Następne” i “Poprzednie”","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje","Klikam przycisk ""Poprzednie""
+Klikam przycisk ""Następne""
+Klikam przycisk ""Następne"""
+"C14","Czas trwania przełączania pomiędzy zadaniami","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje","Klikam przycisk ""Następne"" i mierzę czas przełączenia się zadania w oknie ""Zadania""
+Klikam na nr innego zadanie z pola Listy zadań i mierzę czas przełączenia się zadania w oknie ""Zadania"""
+"C15","Wygląd i nawigacja w polu ""Lista zadań""","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3,
+ Wykonane co najmniej jedno zadanie z aplikacji,
+ Otwarte zadanie do zrobienia","Wygląd i funkcje","W Menu bocznym po prawej stronie okna aplikacji widzę ""Listę zadań""
+Za pomocą listwy przewijania wyszukuję na liście numer zadania otwartego w oknie ""Zadania""
+Wyszukuję na liście numer zadania wykonanego
+Wyszukuję na liście numer zadania do zrobienia"
+"C16","Pole “Nr zadania” i ""Opis Zadania"" - test zgodności numeracji z Oknem ""Zadania""","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje","Porównuję pole ""Nr zadania"" i ""Opis zadania"" z wyświetlonym zadaniem weryfikując czy informacja jest dopasowana do wyświetlanego zadania. Sprawdzam czy w opisie zadania została wyświetlona punktacja.
+Klikam losowe zadanie z listy zadań i obserwuję pole ""Nr zadania"", ""Opis zadania"" oraz okno z wyświetlonym zadaniem. Sprawdzam czy została wyświetlona punktacja.
+Ponownie klikam zadanie nr 1 listy zadań i obserwuję pole ""Nr zadania"", ""Opis zadania"" i okno z wyświetlonym zadaniem. Sprawdzam czy opisy zgadzają się z opisami w kroku pierwszym."
+"C17","Weryfikacja formatu pola ""Czas"" i czasu trwania rundy","Agnieszka Mika","9/5/2022 8:48 PM","Uruchomiona aplikacja Mr Buggy3, tryb pracy bez znaczenia","Wygląd i funkcje","Klikam w ikonę zadania, aby rozpocząć rundę
+Pozostawiam aplikację włączoną przez 2 godziny"
+"C18","Test uprawnień do raportowania defektów - Kapitan drużyny","Agnieszka Mika","9/5/2022 8:48 PM","Uruchomiona aplikacja MrBuggy3 w trybie pracy: kapitan. Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje","Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""
+Wprowadzam opis defektu i klikam przycisk ""Zgłoś""
+Klikam przycisk ""OK"""
+"C19","Test uprawnień do raportowania defektów - Członek drużyny","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: członek drużyny. 
+ Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje","Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""
+Klikam przycisk ""Wróć"""
+"C20","Test uprawnień do raportowania defektów - Zawodnik","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.
+ Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje","Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""
+Wprowadzam opis defektu i klikam przycisk ""Zgłoś""
+Klikam przycisk ""OK"""
+"C21","Zakończenie pracy aplikacji - eksport danych do pliku tekstowego","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje","Klikam przycisk ""Zakończ""
+Klikam ""Tak""
+Zaznaczam checkbox i klikam ""Zakończ""
+Wskazuję lokalizację do zapisania pliku i zatwierdzam ją przyciskiem ""Zapisz tutaj"""
+"C22","Zakończenie pracy aplikacji - przycisk ""Zakończ"", generowanie dziennika zdarzeń i eksport wyników, czas odpowiedzi interfejsu poniżej 1s","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje","Klikam przycisk ""Zakończ""
+Klikam ""Nie""
+Ponownie klikam przycisk ""Zakończ""
+Klikam ""Tak""
+Klikam ""Zakończ"" bez zaznaczania checkbox'a i mierzę czas generowania dziennika zdarzeń i raportu"
+"C23","Sprawdzenie punktacji zadań i występowania pojedynczych defektów w zadaniach","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik. 
+ Przejrzane zadania, do przetestowania 7 zadań każde o innej punktacji tj.: 1pkt, 2pkt, 3pkt, 4pkt, 5pkt, 6pkt i jedno losowo wybrane.","Wygląd i funkcje","Klikam w ikonę zadania za 1pkt, czytam ""Opis zadania"", szukam defektów i po znalezieniu błędu klikam ""Zgłoś defekt""
+Wprowadzam opis defektu i klikam przycisk ""Zgłoś""
+Powtarzam kroki 1-3 dla kolejnych zadań i sprawdzam czy punktacja i suma punktów są poprawne
+Klikam w ikonę kolejnego losowego zadania, czytam ""Opis zadania"" i klikam ""Zgłoś defekt""
+Zgłaszam defekt, który jest poprawnie działającą funkcjonalnością i klikam ""Zgłoś""
+Klikam przycisk ""ZAKOŃCZ"""
+"C24","Liczba wyświetlonych zadań i ich losowa kolejność","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje","Sprawdzam ilość wyświetlonych zadań i przeglądam zadania 1,8 i 15. Zapisuję sobie do porównania czego dotyczyły zadania.
+Kończę pracę aplikacji i loguję się jeszcze raz
+Klikam ikony zadań nr 1, 8, 15 i porównuję te zadania z zadaniami z poprzedniego logowania"
+"C27","Sprawdzenie działania aplikacji - brak połączenia sieciowego","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje","Wyłączam połączenie sieciowe w komputerze
+Klikam ikonę losowego zadania,
+Czytam ""Opis zadania"", szukam defektu i po znalezieniu błędu klikam ""Zgłoś defekt""
+Wprowadzam opis defektu i klikam przycisk ""Zgłoś""
+Klikam przycisk ""OK""
+Klikam przycisk ""Zakończ""
+Klikam ""Tak""
+Wskazuję lokalizację do zapisania pliku i zatwierdzam ją przyciskiem ""Zapisz tutaj"""
