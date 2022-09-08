@@ -1,0 +1,88 @@
+﻿"ID","Title","Created By","Created On","Preconditions","Section"
+"C1","Sprawdzenie instalacji aplikacji","Agnieszka Mika","9/5/2022 8:48 PM","Komputer z systemem Windows 7 lub wyższym
+ Dostęp do internetu 
+ Otwarta strona http://mrbuggy.pl/mrbuggy3/ w przeglądarce","Test Cases"
+"C10","Zmiany rozmiaru okna aplikacji","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Rozdzielczość ekranu ustawiona na 1024x768;
+ Uruchomiona aplikacja Mr Buggy3","Test Cases"
+"C25","Sprawdzenie pamięci operacyjnej aplikacji (100MB)","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do komputera, 
+ Dostęp do internetu,
+ Zainstalowana aplikacja MrBuggy3","Test Cases"
+"C28","Sprawdzenie wielkości pliku z kopią zapasową aplikacji klienckiej MrBuggy3","Agnieszka Mika","9/5/2022 8:48 PM","Utworzony plik z kopią zapasową aplikacji MrBuggy3,
+ otwarty katalog z zapisaną kopią zapasową","Test Cases"
+"C2","Rejestracja w aplikacji nowego użytkownika- pozytywny","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail","Rejestracja"
+"C3","Rejestracja - negatywny- próba rejestracji zarejestrowany wcześniej adres e-mail","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ten sam co w TCID2","Rejestracja"
+"C4","Rejestracja - negatywny- próba rejestracji na zarejestrowany wcześniej login","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja"
+"C5","Rejestracja - negatywny- próba rejestracji bez wpisania danych","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2","Rejestracja"
+"C6","Rejestracja- negatywny- nieprawidłowe znaki w polu ""Login""","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu, 
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja"
+"C7","Rejestracja - negatywny- nieprawidłowe znaki w polu ""Hasło""","Agnieszka Mika","9/5/2022 8:48 PM","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stronie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ","Rejestracja"
+"C8","Logowanie -negatywny - błędne podanie hasła i blokada konta","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+login: agamika12
+e-mail: xahene4015@vpsrec.com
+hasło: Testowanie12345!@#$%","Logowanie"
+"C9","Logowanie - pozytywny","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+login: agamika12
+e-mail: xahene4015@vpsrec.com
+hasło: Testowanie12345!@#$%","Logowanie"
+"C26","Sprawdzenie procedury przywracania i odzyskiwania konta","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Otwarte okno logowania aplikacji MrBuggy3, przygotowane dane do logowania:
+ login:
+ e-mail:
+ hasło: Testowanie12345!@#$%","Logowanie"
+"C11","Wygląd okna aplikacji - rozmieszczenie i główne pola","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3","Wygląd i funkcje"
+"C12","Sprawdzenie języka komunikatów oraz nazw klawiszy i funkcji","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+ login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%","Wygląd i funkcje"
+"C13","Test przycisków nawigacyjnych - “Następne” i “Poprzednie”","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje"
+"C14","Czas trwania przełączania pomiędzy zadaniami","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje"
+"C15","Wygląd i nawigacja w polu ""Lista zadań""","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3,
+ Wykonane co najmniej jedno zadanie z aplikacji,
+ Otwarte zadanie do zrobienia","Wygląd i funkcje"
+"C16","Pole “Nr zadania” i ""Opis Zadania"" - test zgodności numeracji z Oknem ""Zadania""","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje"
+"C17","Weryfikacja formatu pola ""Czas"" i czasu trwania rundy","Agnieszka Mika","9/5/2022 8:48 PM","Uruchomiona aplikacja Mr Buggy3, tryb pracy bez znaczenia","Wygląd i funkcje"
+"C18","Test uprawnień do raportowania defektów - Kapitan drużyny","Agnieszka Mika","9/5/2022 8:48 PM","Uruchomiona aplikacja MrBuggy3 w trybie pracy: kapitan. Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje"
+"C19","Test uprawnień do raportowania defektów - Członek drużyny","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: członek drużyny. 
+ Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje"
+"C20","Test uprawnień do raportowania defektów - Zawodnik","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.
+ Otwarte losowe zadanie ze zlokalizowanym defektem.","Wygląd i funkcje"
+"C21","Zakończenie pracy aplikacji - eksport danych do pliku tekstowego","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje"
+"C22","Zakończenie pracy aplikacji - przycisk ""Zakończ"", generowanie dziennika zdarzeń i eksport wyników, czas odpowiedzi interfejsu poniżej 1s","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje"
+"C23","Sprawdzenie punktacji zadań i występowania pojedynczych defektów w zadaniach","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik. 
+ Przejrzane zadania, do przetestowania 7 zadań każde o innej punktacji tj.: 1pkt, 2pkt, 3pkt, 4pkt, 5pkt, 6pkt i jedno losowo wybrane.","Wygląd i funkcje"
+"C24","Liczba wyświetlonych zadań i ich losowa kolejność","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1","Wygląd i funkcje"
+"C27","Sprawdzenie działania aplikacji - brak połączenia sieciowego","Agnieszka Mika","9/5/2022 8:48 PM","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.","Wygląd i funkcje"
