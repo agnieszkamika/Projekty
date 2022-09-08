@@ -38,13 +38,13 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 
 * Projekt końcowy MrBuggy3 (https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
 
-* (Przypadki Testowe) dla strony [AutomationPractice](http://automationpractice.com/index.php)
+* (Przypadki Testowe) dla strony
 
-* (Zapytania) REST API dla serwisu [Restful-Booker](https://restful-booker.herokuapp.com/)
+* (Zapytania) REST API dla serwisu 
 
 * (Testy Automatyczne) nagrane przy pomocy narzędzia Selenium IDE.
 
-* Moje pierwsze [projekty programistyczne](projekty_programistyczne).
+* Moje pierwsze projekty programistyczne
 
 * (Testy_automatyczne), z wykorzystaniem Selenium WebDriver.
 
@@ -67,6 +67,6 @@ Testowanie to nie wszystko. Jeśli nie testuję, to gotuję!!! :)
 
 ## Kontakt
 
-Skontaktuj się ze mną mailowo: agnieszka.mika1976@gmail.com
+Skontaktuj się ze mną mailowo: [Agnieszka Mika](agnieszka.mika1976@gmail.com)
 
 Linkedin: [Agnieszka Mika](https://www.linkedin.com/in/agnieszka-mika-it/)
