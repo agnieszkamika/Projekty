@@ -46,13 +46,14 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 
 * Moje pierwsze [projekty programistyczne](projekty_programistyczne).
 
-*(Testy_automatyczne), z wykorzystaniem Selenium WebDriver.
+* (Testy_automatyczne), z wykorzystaniem Selenium WebDriver.
 
 ## Technologie
 
 <center>
 
-![profile](img/technical_skills.png)
+!{profile](https://user-images.githubusercontent.com/112310876/189215493-dfc00eed-8cd4-4f70-aada-6c8aa7eef46e.png)
+
 
 </center>
 
