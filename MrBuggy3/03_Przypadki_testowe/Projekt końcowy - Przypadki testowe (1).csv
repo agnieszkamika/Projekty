@@ -1,0 +1,188 @@
+TCID,ID wymagania,Tytuł,Warunki wstępne,ID Kroku,Opis kroku,Oczekiwany rezultat
+1,1,Sprawdzenie instalacji aplikacji,"Komputer z systemem Windows 7 lub wyższym
+ Dostęp do internetu 
+ Otwarta strona http://mrbuggy.pl/mrbuggy3/ w przeglądarce",S1,"Klikam przycisk ""POBIERZ"" na stonie MrBuggy3","Pobrany plik jest w postaci archiwum ""ZIP"""
+,,,,S2,Wypakowuję archiwum,Archiwum zawiera plik wykonawczy
+,,,,S3,Uruchamiam plik wykonawczy,Aplikacja uruchamia się bez instalacji
+2,2,Rejestracja w aplikacji nowego użytkownika- pozytywny,"Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Wypełniam formularz rejestracji:
+ Pole ""Login"": Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S3,"Pole ""e-mail"": tymczasowy adres e-mail","Pole ""e-mail"" wypełnione jest wybranym mailem"
+,,,,S4,"Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S5,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej","Pole ""Powtórz hasło"" jest wypełnione gwiazdkami"
+,,,,S6,"Klikam przycisk ""ZAREJESTRUJ""",Pojawia się okno dialogowe z informacją o wysłanym na adres e-mail linku aktywacyjnym
+,,,,S7,Na stronie https://temp-mail.org/pl/ wchodzę w mail potwierdzający rejestrację i klikam link aktywacyjny,"Konto zostało aktywowane, zapisuję dane do logowania"
+3,2,Rejestracja - negatywny- próba rejestracji zarejestrowany wcześniej adres e-mail,"Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail ten sam co w TCID2",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Wypełniam formularz rejestracji:
+ Pole ""Login"": używam loginu innego niż w przypadku testowego , Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S3,"Pole ""e-mail"": tymczasowy adres e-mail","Pole ""e-mail"" wypełnione jest wybranym mailem"
+,,,,S4,"Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S5,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej","Pole ""Powtórz hasło"" jest wypełnione gwiazdkami"
+,,,,S6,"Klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją, że nie można zarejestrować konta, ponieważ w bazie jest już konto na podany adres"
+4,2,Rejestracja - negatywny- próba rejestracji na zarejestrowany wcześniej login,"Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Wypełniam formularz rejestracji:
+ Pole ""Login"": używam loginu z przypadku testowego TCID2","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S3,"Pole ""e-mail"": nowy tymczasowy adres e-mail","Pole ""e-mail"" wypełnione jest wybranym mailem"
+,,,,S4,"Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S5,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej","Pole ""Powtórz hasło"" jest wypełnione gwiazdkami"
+,,,,S6,"Klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją, że podany login jest niedostępny"
+5,2,Rejestracja - negatywny- próba rejestracji bez wpisania danych,"Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu i przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Zostawiam formularz rejestracji niewypełniony i klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją , że pole ""Login"" jest wymagane"
+,,,,S3,"Wypełniam pole ""Login"": Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalnyreszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją , że pole ""e-mail"" jest wymagane"
+,,,,S4,"Wypełniam pole ""e-mail"": nowy tymczasowy adres e-mail, reszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją , że pole ""Hasło"" jest wymagane"
+,,,,S5,"Wypełniam pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%"" reszta pól formularza jest nie wypełniona i klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją , że pola ""Hasło"" i ""Powtórz hasło"" muszą być identyczne"
+,,,,S6,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej i klikam przycisk""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją, że akceptacja regulaminu jest wymagana"
+6,3,"Rejestracja- negatywny- nieprawidłowe znaki w polu ""Login""","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu, 
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Wypełniam formularz rejestracji loginem o nieprawidłowych znakach
+ Pole ""Login"": agamika12","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S3,"Pole ""e-mail"": nowy tymczasowy adres e-mail","Pole ""e-mail"" wypełnione jest wybranym mailem"
+,,,,S4,"Pole ""Hasło"": hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego np..: 'Testowanie12345!@#$%""","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S5,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej","Pole ""Powtórz hasło"" jest wypełnione gwiazdkami"
+,,,,S6,"Klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją, że loginn musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny"
+7,4,"Rejestracja - negatywny- nieprawidłowe znaki w polu ""Hasło""","Otwarte okno logowania aplikacji MrBuggy3, 
+ dostęp do internetu,
+ Przez cały czas trwania testu otwarta przeglądarka na stonie https://temp-mail.org/pl/ 
+ wygenerowany tymczasowy adres e-mail inny niż w TCID2",S1,"Klikam w oknie logowania opcję ""Rejestracja""",Otwiera się okno rejestracji nowego użytkownika
+,,,,S2,"Wypełniam formularz rejestracji:
+ Pole ""Login"":  Login musi składać się z 4 do 8 znaków i zawierać przynajmniej jedną małą literę, jedną wielką literę, jedną cyfrę i jeden znak specjalny","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S3,"Pole ""e-mail"": nowy tymczasowy adres e-mail","Pole ""e-mail"" wypełnione jest wybranym mailem"
+,,,,S4,"Pole ""Hasło"": Tester12","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S5,"Pole ""Powtórz hasło"": wpisuję to samo hasło co powyżej","Pole ""Powtórz hasło"" jest wypełnione gwiazdkami"
+,,,,S6,"Klikam przycisk ""ZAREJESTRUJ""","Pojawia się okno dialogowe z informacją, że hasło musi składać się z conajmniej 20 znaków, jednej małej litery, jednej wielkiej litery, jednej cyfry oraz jednego znaku specjalnego"
+8,5,Logowanie -negatywny - błędne podanie hasła i blokada konta,"Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+  login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%",S1,"W polu ""Login"" wpisuję poprawny login","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S2,"W polu ""Hasło"" wpisuję kilka losowych znaków (różnych od poprawnego hasła)","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S3,"Klikam przycisk ""ZALOGUJ""","Wyświetla się okno dialogowe z komunikatem o błędnym haśle i ostrzeżeniem, że po 3 błędnych próbach logowania konto zostanie zablokowane"
+,,,,S4,Powtarzam kroki 1-3 kolejne dwa razy,"Wyświetla się okno dialogowe z komunikatem ""Konto zablokowane. Skontaktuj sie z administratorem strony lub odzyskaj dostęp do konta"""
+9,6,Logowanie - pozytywny,"Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+ login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%",S1,"W polu ""Login"" wpisuję poprawny login","Pole ""Login"" wypełnione jest wybranym loginem"
+,,,,S2,"W polu ""Hasło"" wpisuję poprawne hasło","Pole ""Hasło"" jest wypełnione gwiazdkami"
+,,,,S3,"Klikam przycisk ""ZALOGUJ""","Wyświetla się okno dialogowe z możliwością wyboru 1 z trzech trybów pracy:
+ Kategoria drużynowa:
+ *kapitan drużyny
+ *członek dryżyny
+ Kategoria indywidualna:
+ *zawodnik"
+,,,,S4,"Klikam przycisk ""DALEJ""",Wyświetla się okno z zadaniami aplikacji MrBuggy3
+10,7,Zmiany rozmiaru okna aplikacji,"Dostęp do internetu,
+ Rozdzielczość ekranu ustawiona na 1024x768;
+ Uruchomiona aplikacja Mr Buggy3",S1,Przyglądam się rozmiarowi uruchomionej aplikacji,"Widzę, że okno aplikacji widoczne jest w całości na ekranie monitora o rozdzielczości 1024x768 pikseli"
+,,,,S2,Zmieniam rozdzielczość ekranu na 1920x1080,"Widzę, że aplikacja nie zeskalowała swojego rozmiaru"
+11,9,Wygląd okna aplikacji - rozmieszczenie i główne pola,"Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3",S1,Przyglądam się oknu aplikacji,"Widzę, że okno aplikacji podzielone jest na 2 części: okno ""Zadania"" i ""Menu boczne"" oraz w oknie umieszczona jest ikona MrBuggy3"
+,,,,S2,"Przyglądam się ""Menu bocznemu""","""Menu boczne"" zawiera funkcje zgodne z mockup, czyli zawiera pola: Czas, Opis Zadania, Nr zadania, Lista zadań, przyciski nawigacyjne ""Poprzednie"" i ""Następne"", przycisk ""Znalazłem defekt"", przycisk ""Zakończ"", przycisk ""Status połączenia"""
+12,8,Sprawdzenie języka komunikatów oraz nazw klawiszy i funkcji,"Dostęp do internetu,
+ Otwarte okno logowania aplikacji MrBuggy 3, przygotowane dane do logowania:
+ login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%",S1,Loguję się używając niepoprawnego hasła do aplikacji i sprawdzam język wszystkich klawisze w oknie logowania,Wszystkie przyciski i wyświetlone okno dialogowe o błędzie jest w języku polskim
+,,,,S2,Loguję się używając poprawnego hasła do aplikacji,Wyświetla się okno dialogowe z wyborem trybu pracy jest w języku polskim
+,,,,S3,"Klikam przycisk""DALEJ""","Wyświetla się okno z zadaniami aplikacji MrBuggy3, wszystkie przyciski i funkcje i zadania opisane są w języku polskim"
+,,,,S4,"Klikam przycisk ""ZAKOŃCZ""",Wyświetla się okno dialogowe w języku polskim do potwierdzenia zakończenia pracy
+13,12,Test przycisków nawigacyjnych - “Następne” i “Poprzednie”,"Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1",S1,"Klikam przycisk ""Poprzednie""","W oknie ""Zadania"" wyświetla się zadanie z nr ostatnim, zmienia się opis w polu Opis Zadania oraz numer w polu Nr Zadania"
+,,,,S2,"Klikam przycisk ""Następne""","W oknie ""Zadania"" wyświetla się ponownie zadanie nr 1, zmienia się opis w polu Opis Zadania oraz numer w polu Nr Zadania"
+,,,,S3,"Klikam przycisk ""Następne""","W oknie ""Zadania"" wyświetla się zadanie nr 2, zmienia się opis w polu Opis Zadania oraz numer w polu Nr Zadania"
+14,18,Czas trwania przełączania pomiędzy zadaniami,"Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1",S1,"Klikam przycisk ""Następne"" i mierzę czas przełączenia się zadania w oknie ""Zadania""",Zadanie nr 2 wyświetla się w czasie nie dłuższym niż 1 sekunda
+,,,,S2,"Klikam na nr innego zadanie z pola Listy zadań i mierzę czas przełączenia się zadania w oknie ""Zadania""",Kolejne zadanie wyświetla się w czasie nie dłuższym niż 1 sekunda
+15,13,"Wygląd i nawigacja w polu ""Lista zadań""","Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3,
+ Wykonane co najmniej jedno zadanie z aplikacji,
+ Otwarte zadanie do zrobienia",S1,"W Menu bocznym po prawej stronie okna aplikacji widzę ""Listę zadań""","""Lista zadań"" ma możliwość przewijania"
+,,,,S2,"Za pomocą listwy przewijania wyszukuję na liście numer zadania otwartego w oknie ""Zadania""","Przewijanie działa, a ikona otwartego zadania podświetlona jest na liście w kolorze czarnym"
+,,,,S3,Wyszukuję na liście numer zadania wykonanego,Ikona zadania zrobionego podświetlona jest na liście w kolorze wyszarzonym i jest nieaktywna
+,,,,S4,Wyszukuję na liście numer zadania do zrobienia,Ikona zadania do zrobienia podświetlona jest na liście w kolorze białym i jest aktywna
+16,15,"Pole “Nr zadania” i ""Opis Zadania"" - test zgodności numeracji z Oknem ""Zadania""","Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1",S1,"Porównuję pole ""Nr zadania"" i ""Opis zadania"" z wyświetlonym zadaniem weryfikując czy informacja jest dopasowana do wyświetlanego zadania. Sprawdzam czy w opisie zadania została wyświetlona punktacja.","Pola ""Opis zadania"" i ""Nr zadania"" zawierają informację dopasowaną do wyświetlanego zadania w polu ""Zadania""."
+,,,,S2,"Klikam losowe zadanie z listy zadań i obserwuję pole ""Nr zadania"", ""Opis zadania"" oraz okno z wyświetlonym zadaniem. Sprawdzam czy została wyświetlona punktacja.","W oknie ""Zadania"" wyświetla się zadanie oraz w polu ""Nr zadania"" wyświetla jego numer który jest zgodny z numerem na ikonie się, treść zadania i jego opis zadania również są zgodne"
+,,,,S3,"Ponownie klikam zadanie nr 1 listy zadań i obserwuję pole ""Nr zadania"", ""Opis zadania"" i okno z wyświetlonym zadaniem. Sprawdzam czy opisy zgadzają się z opisami w kroku S1.","W oknie ""Zadania"" wywietla się ponownie zadanie pierwsze oraz w polu ""Nr zadania"" wyswietla się treść ""Zadanie 1"", a w polu ""Opis zadania"" wyświetla się ponownie opis zadania nr 1"
+17,19,"Weryfikacja formatu pola ""Czas"" i czasu trwania rundy","Uruchomiona aplikacja Mr Buggy3, tryb pracy bez znaczenia",S1,"Klikam w ikonę zadania, aby rozpocząć rundę","Pole ""czas"" wyświetla czas do zakończenia trwania rundy w ujeciu hh:mm:ss. Czas rundy nie przekracza 2h"
+,,,,S2,Pozostawiam aplikację włączoną przez 2 godziny,Po 2 godzinach runda zostaje automatycznie zakończona
+18,16,Test uprawnień do raportowania defektów - Kapitan drużyny,Uruchomiona aplikacja MrBuggy3 w trybie pracy: kapitan. Otwarte losowe zadanie ze zlokalizowanym defektem.,S1,"Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""",Wyświetla się okno do zgłaszania defektu
+,,,,S2,"Wprowadzam opis defektu i klikam przycisk ""Zgłoś""","Pojawia się komunikat: ""Zgłoszenie defektu przebiegło pomyślnie, ilość przyznanych pkt to … """
+,,,,S3,"Klikam przycisk ""OK""",Następuje powrót do okna z zadaniami.
+19,16,Test uprawnień do raportowania defektów - Członek drużyny,"Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: członek drużyny. 
+ Otwarte losowe zadanie ze zlokalizowanym defektem.",S1,"Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""","Pojawia się komunikat: ""Funkcja jest dostępna w trybie kapitana drużyny. Brak możliwości zmiany trybu podczas trwania rozgrywki."""
+,,,,S2,"Klikam przycisk ""Wróć""",Następuje powrót do okna z zadaniami.
+20,16,Test uprawnień do raportowania defektów - Zawodnik,"Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.
+ Otwarte losowe zadanie ze zlokalizowanym defektem.",S1,"Zatwierdzam znaleziony błąd przyciskiem ""Znalazłem defekt""",Wyświetla się okno do zgłaszania defektu
+,,,,S2,"Wprowadzam opis defektu i klikam przycisk ""Zgłoś""","Pojawia się komunikat: ""Zgłoszenie defektu przebiegło pomyślnie, ilość przyznanych pkt to … """
+,,,,S3,"Klikam przycisk ""OK""",Następuje powrót do okna z zadaniami.
+21,21,Zakończenie pracy aplikacji - eksport danych do pliku tekstowego,"Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.",S1,"Klikam przycisk ""Zakończ""","Pojawia się okno z komunikatem: Po zakończeniu Twoje wyniki zostaną podliczone i wysłane do raportu zbiorczego. Czy na pewno chcesz zakończyć rozgrywkę?"""
+,,,,S2,"Klikam ""Tak""","Pojawia się okno dialogowe z checkbox'em
+ ""Wyeksportuj do pliku"" i
+ przyciskiem ""Zakończ"""
+,,,,S3,"Zaznaczam checkbox i klikam ""Zakończ""","Wyświetlone zostaje okno dialogowe ""Gdzie zapisać plik?"" z możliwością wskazania lokalizacji na dysku komputera"
+,,,,S4,"Wskazuję lokalizację do zapisania pliku i zatwierdzam ją przyciskiem ""Zapisz tutaj""","Plik tekstowy zostaje zapisany we wskazanej lokalizacji, pojawia się komunikat: ""Dziennik zdarzeń i raport zostały pomyślnie wysłane"", czas generowania raportu jest poniżej 1s, aplikacja się zamyka."
+22,17,"Zakończenie pracy aplikacji - przycisk ""Zakończ"", generowanie dziennika zdarzeń i eksport wyników, czas odpowiedzi interfejsu poniżej 1s","Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.",S1,"Klikam przycisk ""Zakończ""","Pojawia się okno z komunikatem: Po zakończeniu Twoje wyniki zostaną podliczone i wysłane do raportu zbiorczego. Czy na pewno chcesz zakończyć rozgrywkę?"""
+,,,,S2,"Klikam ""Nie""",Następuje powrót do okna z zadaniami.
+,,,,S3,"Ponownie klikam przycisk ""Zakończ""","Pojawia się okno z komunikatem: Po zakończeniu Twoje wyniki zostaną podliczone i wysłane do raportu zbiorczego. Czy na pewno chcesz zakończyć rozgrywkę?"""
+,,,,S4,"Klikam ""Tak""","Pojawia się okno dialogowe z checkboxem
+ ""Wyeksportuj do pliku"" i
+ przyciskiem ""Zakończ"""
+,,,,S5,"Klikam ""Zakończ"" bez zaznaczania checkbox'a i mierzę czas generowania dziennika zdarzeń i raportu","Pojawia się komunikat: ""Dziennik zdarzeń i raport zostały pomyślnie wysłane"", czas generowania raportu jest poniżej 1s, aplikacja się zamyka."
+23,11,Sprawdzenie punktacji zadań i występowania pojedynczych defektów w zadaniach,"Dostęp do internetu,
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik. 
+ Przejrzane zadania, do przetestowania 7 zadań każde o innej punktacji tj.: 1pkt, 2pkt, 3pkt, 4pkt, 5pkt, 6pkt i jedno losowo wybrane.",S1,"Klikam w ikonę zadania za 1pkt, czytam ""Opis zadania"", szukam defektów i po znalezieniu błędu klikam ""Zgłoś defekt""",Wyświetla się okno do zgłaszania defektu
+,,,,S2,"Wprowadzam opis defektu i klikam przycisk ""Zgłoś""","Pojawia się komunikat: ""Zgłoszenie defektu przebiegło pomyślnie, ilość przyznanych pkt to 1."""
+,,,,S3,"Klikam przycisk ""OK""",Następuje powrót do okna z zadaniami. W oknie aplikacji wyświetlona jest liczba zdobytych punktów.
+,,,,S4,Powtarzam kroki 1-3 dla kolejnych zadań i sprawdzam czy punktacja i suma punktów są poprawne,Liczby punktów są zgodne ze opisem zadania i suma punktów po każdym zadaniu jest poprawna .
+,,,,S5,"Klikam w ikonę kolejnego losowego zadania, czytam ""Opis zadania"" i klikam ""Zgłoś defekt""",Wyświetla się okno do zgłaszania defektu
+,,,,S6,"Zgłaszam defekt, który jest poprawnie działającą funkcjonalnością i klikam ""Zgłoś""","Pojawia się komunikat: ""Zgłoszenie defektu przebiegło pomyślnie, ilość przyznanych pkt to -2."" Suma punktów jest pomniejszona o 2."
+,,,,S7,"Klikam przycisk ""OK""",Następuje powrót do okna z zadaniami.
+,,,,S8,"Klikam przycisk ""ZAKOŃCZ""","Suma punktów po zakończeniu rozgrywki nie zmienia co oznacza, że za pozostałe niezgłoszone zadania jest 0pkt."
+24,10,Liczba wyświetlonych zadań i ich losowa kolejność,"Dostęp do internetu,
+ Uruchomiona aplikacja Mr Buggy3, 
+ w oknie ""Zadania"" wyświetlone zadanie nr 1",S1,"Sprawdzam ilość wyświetlonych zadań i przeglądam zadania 1,8 i 15. Zapisuję sobie do porównania czego dotyczyły zadania.",Na Liście zadań wyświetlonych jest 15 zadań.
+,,,,S2,Kończę pracę aplikacji i loguję się jeszcze raz,Aplikacja uruchamia się poprawnie
+,,,,S3,"Klikam ikony zadań nr 1, 8, 15 i porównuję te zadania z zadaniami z poprzedniego logowania",Zadania z drugiego logowania różnią się od zadań z pierwszego logowania
+25,22,Sprawdzenie pamięci operacyjnej aplikacji (100MB),"Dostęp do komputera, 
+ Dostęp do internetu,
+ Zainstalowana aplikacja MrBuggy3",S1,Uruchamiam Aplikację,Aplikacja otwiera się poprawnie
+,,,,S2,Sprawdzam właściwości aplikacji,Aplikacja nie zajmuje więcej niż 100MB
+26,14,Sprawdzenie procedury przywracania i odzyskiwania konta,"Dostęp do internetu, 
+ Otwarte okno logowania aplikacji MrBuggy3, przygotowane dane do logowania:
+ login: agamika12
+ e-mail: xahene4015@vpsrec.com
+ hasło: Testowanie12345!@#$%",S1,Trzykrotnie loguję się z błędnym hasłem,"Wyświetla się okno dialogowe z komunikatem ""Konto zablokowane. Skontaktuj sie z administratorem strony lub odzyskaj dostęp do konta"""
+,,,,S2,"Klikam ""odzyskaj dostęp do konta""","Otwiera się okno z formularzem do odzyskiwania dostępu do konta z polem do wypełnienia ""Adres e-mail"" i przyciskiem ""Przywróć dostęp"""
+,,,,S3,"Wpisuję adres e-mail i klikam ""Przywróć dostęp""","Wyświetla się okno dialogowe z komunikatem, że na podany adres e-mail zostało wysłane tymczasowe hasło"
+,,,,S4,"Wchodzę na pocztę, odszukuję wiadomość z tymczasowym hasłem, kopiuję przysłane hasło i loguję się używając tymczasowego hasła",Procedura logowania zakończyła się pozytywnie
+27,20,Sprawdzenie działania aplikacji - brak połączenia sieciowego,"Dostęp do internetu, 
+ Uruchomiona aplikacja MrBuggy3 w trybie pracy: zawodnik.",S1,Wyłączam połączenie sieciowe w komputerze,Aplikacja nie reaguje na brak internetu
+,,,,S2,"Klikam ikonę losowego zadania,","Zadanie wczytuje się poprawnie tzn. w oknie ""Zadania"" wyświetla się zadanie oraz w polu ""Nr zadania"" wyświetla jego numer, który jest zgodny z numerem na ikonie się, treść zadania i jego opis zadania również są zgodne"
+,,,,S3,"Czytam ""Opis zadania"", szukam defektu i po znalezieniu błędu klikam ""Zgłoś defekt""",Wyświetla się okno do zgłaszania defektu
+,,,,S4,"Wprowadzam opis defektu i klikam przycisk ""Zgłoś""","Pojawia się komunikat: ""Zgłoszenie defektu przebiegło pomyślnie, ilość przyznanych pkt to..."""
+,,,,S5,"Klikam przycisk ""OK""",Następuje powrót do okna z zadaniami.
+,,,,S6,"Klikam przycisk ""Zakończ""","Pojawia się okno z komunikatem: Po zakończeniu Twoje wyniki zostaną podliczone i wysłane do raportu zbiorczego. Czy na pewno chcesz zakończyć rozgrywkę?"""
+,,,,S7,"Klikam ""Tak""","Wyświetla się okno dialogowe z komunikatem: ""Brak połączenia z serwerem. Wyeksportuj dane do pliku."""
+,,,,S8,"Wskazuję lokalizację do zapisania pliku i zatwierdzam ją przyciskiem ""Zapisz tutaj""","Plik tekstowy zostaje zapisany we wskazanej lokalizacji, pojawia się komunikat: ""Dziennik zdarzeń i raport zostały pomyślnie wysłane"", aplikacja się zamyka."
+28,23,Sprawdzenie wielkości pliku z kopią zapasową aplikacji klienckiej MrBuggy3,"Utworzony plik z kopią zapasową aplikacji MrBuggy3,
+ otwarty katalog z zapisaną kopią zapasową",S1,"klikam lewym przyciskiem myszy w plik z kopią, wybieram właściwości pliku",Otwiera się okno z właściwosciami
+,,,,S2,Odczytuję rozmiar pliku,Plik jest mniejszy niż 2MB
