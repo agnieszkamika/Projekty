@@ -7,7 +7,7 @@ Projekty te wykonałam w ramach kursu "Tester Oprogramowania" organizowanym prze
 ## Kurs Software Development Academy
 <center>
 
-![profile](https://app.diplomasafe.com/pl-PL/diploma/dd7b920dda8f1aee09612c4dacb5d73dfdc55b535)
+![profile](https://github.com/agnieszkamika/prywatne/blob/main/tester_oprogramowania.pdf)
 
 </center>
 
