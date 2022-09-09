@@ -1,18 +1,18 @@
 # Portfolio
 
 ## O mnie
-Nazywam się Agnieszka Mika i jestem początkującym testerem oprogramowania. Moim celem jest pogłębiać swoją wiedzę dotycząca testowania i rozwijać swoje umiejętności techniczne. Na tej stronie chciałabym podzielić się z Tobą moim doświadczeniem oraz projektami, które miałam dotychczas przyjemność wykonać. 
-Od dziecka wyszukiwanie różnic oraz błędów było moją ulubioną zabawą. Z czasem dowiedziałam się, że to co nie sprawia mi żadnych problemów może być codzienną pracą. Obecnie uczestniczę w kursie "Tester Oprogramowania" organizowanym przez Software Development Academy. 
+Nazywam się Agnieszka Mika i jestem początkującym testerem oprogramowania. Moim celem jest pogłębiać swoją wiedzę dotycząca testowania i rozwijać swoje umiejętności techniczne, a na tej stronie chciałabym podzielić się z Tobą moim doświadczeniem oraz projektami, które miałam przyjemność dotychczas wykonać. 
+Projekty te wykonałam w ramach kursu "Tester Oprogramowania" organizowanym przez Software Development Academy, oraz w ramach wielu godzin poświęconych na pracę własną. 
 
 ## Kurs Software Development Academy
-Przez 116 godzin zajęć oraz wiele godzin poświęconych na pracę samodzielną zdobyłam wiedzę z następujących tematów:
+Przez 116 godzin zajęć zdobyłam wiedzę z następujących tematów:
 1.	Techniki projektowania testów	
 2.  Testowanie w oparciu o ryzyko	
-3.	Narzędzia testerskie (JIRA, TestRail, Postman, DevTools)
+3.	Narzędzia testerskie (JIRA, TestRail, Postman, DevTools i inne)
 4.	Zajęcia z testowania
 5.	Podstawy baz danych (MySQL)
 6.	Wprowadzenie do programowania (Java)
-7.	Testowanie w metodyce BDD	(Cucumber)
+7.	Testowanie w metodyce BDD	
 8.	Podstawy Selenium WebDriver
 9.	Przygotowanie do egzaminu ISTQB	
 10.	Warsztaty Scrum
