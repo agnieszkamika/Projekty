@@ -9,7 +9,7 @@ Projekt składa się z następujących części:
 3.	Przypadki testowe – opracowane przypadki testowe, które były następnie zaimportowane do TestRaila.
 4.	Import przypadków testowych do TestRaila.
 5.	Plan Testów.
-6.	Testy eksploracyjne - testy eksploracyjne zostały przeprowadzone przy pomocy wtyczki Test & Feedback
+6.	Testy eksploracyjne - testy eksploracyjne zostały przeprowadzone przy pomocy wtyczki do przeglądarki Test & Feedback
 7.	Raporty z testów - podstawowym kryterium zaliczenia testu była zgodność ze specyfikacją co było równoznaczne z uzyskaniem wyników tożsamych z oczekiwanymi rezultatami testów. Każda rozbieżność pomiędzy oczekiwanym rezultatem, a uzyskanym wynikiem skutkowała niezaliczeniem testu i zgłoszeniem błędu o priorytecie zgodnym z klasyfikacją.
 8.	Zgłoszenia błędów w JIRA.
 
