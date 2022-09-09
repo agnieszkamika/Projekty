@@ -63,7 +63,7 @@ Testowanie to nie wszystko. Jeśli nie testuję, to gotuję!!! :)
 
 <center>
 
-!(C:\Users\Dom\Desktop\gotowanie.png)
+![profile](https://github.com/agnieszkamika/prywatne/blob/main/gotowanie.png)
 
 </center>
 
