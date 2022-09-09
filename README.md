@@ -5,6 +5,12 @@ Nazywam się Agnieszka Mika i jestem początkującym testerem oprogramowania. Mo
 Projekty te wykonałam w ramach kursu "Tester Oprogramowania" organizowanym przez Software Development Academy, oraz w ramach wielu godzin poświęconych na pracę własną. 
 
 ## Kurs Software Development Academy
+<center>
+
+![profile](https://app.diplomasafe.com/pl-PL/diploma/dd7b920dda8f1aee09612c4dacb5d73dfdc55b535)
+
+</center>
+
 Przez 116 godzin zajęć zdobyłam wiedzę z następujących tematów:
 1.	Techniki projektowania testów	
 2.  Testowanie w oparciu o ryzyko	
