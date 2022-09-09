@@ -61,7 +61,11 @@ Testowanie to nie wszystko. Jeśli nie testuję, to gotuję!!! :)
 
 <center>
 
+<center>
 
+![profile](C:\Users\Dom\Desktop\gotowanie.png)
+
+</center>
 
 </center>
 
