@@ -44,15 +44,6 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 
 * Projekt końcowy [MrBuggy3](https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
 
-* (Przypadki Testowe) dla strony
-
-* (Zapytania) REST API dla serwisu 
-
-* (Testy Automatyczne) nagrane przy pomocy narzędzia Selenium IDE.
-
-* Moje pierwsze projekty programistyczne
-
-* (Testy_automatyczne), z wykorzystaniem Selenium WebDriver.
 
 ## Technologie
 
