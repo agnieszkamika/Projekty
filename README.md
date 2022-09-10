@@ -42,7 +42,7 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 
 ## Moje projekty
 
-* Projekt końcowy MrBuggy3 [MrBuggy3](https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
+* Projekt końcowy [MrBuggy3](https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
 
 * (Przypadki Testowe) dla strony
 
