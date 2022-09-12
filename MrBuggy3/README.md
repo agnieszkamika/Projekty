@@ -12,5 +12,5 @@ Projekt składa się z następujących części:
 6.	Testy eksploracyjne - testy eksploracyjne zostały przeprowadzone przy pomocy wtyczki do przeglądarki Test & Feedback
 7.	Raporty z testów - podstawowym kryterium zaliczenia testu była zgodność ze specyfikacją co było równoznaczne z uzyskaniem wyników tożsamych z oczekiwanymi rezultatami testów. Każda rozbieżność pomiędzy oczekiwanym rezultatem, a uzyskanym wynikiem skutkowała niezaliczeniem testu i zgłoszeniem błędu o priorytecie zgodnym z klasyfikacją.
 8.	Zgłoszenia błędów w JIRA.
-9.  Przepisanie wybranego przypadku testowego za pomocą BDD - wybrany przypadek to C2 z TestRaila, czyli rejestracja nowego użytkownika.
+
 
