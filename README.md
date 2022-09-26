@@ -44,7 +44,7 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 
 * Projekt końcowy [MrBuggy3](https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
 * Testowanie API [RESTFUL_BOOKER](https://github.com/agnieszkamika/Projekty/tree/main/Testowanie_REST_API/Restful-booker)
-* Trello testy automatyczne Postman zintegrowane z Jenkins (https://github.com/agnieszkamika/Projekty/tree/main/Trello_testy_automatyczne_Postman_Jenkins)
+* Trello testy automatyczne Postman zintegrowane z Jenkins [Testy automatyczne Postman-Jenkins](https://github.com/agnieszkamika/Projekty/tree/main/Trello_testy_automatyczne_Postman_Jenkins)
 * BDD [SwagLabs]()
 
 
