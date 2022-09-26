@@ -22,55 +22,55 @@ newman
 ### Tablica Api
 #### Stworzenie tablicy API
   POST https://api.trello.com/1/boards/?name=Tablica z API&key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 4kB, 586ms]
-  √  Should verify status code
-  √  Should verify board name
-  √  Should verify response id lenght
+ * √  Should verify status code
+ * √  Should verify board name
+ * √  Should verify response id lenght
 
 #### Pokazywanie listy tablic
   GET https://api.trello.com/1/members/me/boards?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 22.42kB, 246ms]
-  √  Should verify status code
-  √  Should verify type of board name
+  * √  Should verify status code
+  * √  Should verify type of board name
 
 #### Tworzenie nowej listy w tablicy API
   POST https://api.trello.com/1/boards/633145777c28310194468541/lists?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192&name=do korekty [200 OK, 2.36kB, 244ms]
-  √  Should verify status code
-  √  Should verify list name
-  √  Should verify response id lenght
+  * √  Should verify status code
+  * √  Should verify list name
+  * √  Should verify response id lenght
 
 #### pokazywanie listy list tablicy API
   GET https://api.trello.com/1/boards/633145777c28310194468541/lists?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 2.73kB, 180ms]
-  √  Should verify response status
-  √  Should verify closed value
+ * √  Should verify response status
+ * √  Should verify closed value
 
 #### aktualizacja listy w tablicy API
   PUT https://api.trello.com/1/lists/63314578a5cec3018ed8c6ff?name=Do poprawy&key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 2.35kB, 239ms]
-  √  Should verify response status code
-  √  Should verify updated name
+ * √  Should verify response status code
+ * √  Should verify updated name
 
 #### dodanie nowej karty do listy w tablicy API
   POST https://api.trello.com/1/cards?idList=63314578a5cec3018ed8c6ff&key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192&name=Nie działa rejestracja [200 OK, 3.38kB, 382ms]
-  √  Should verify status code
-  √  Should verify id list and id board
+ * √  Should verify status code
+ * √  Should verify id list and id board
 
 #### lista kart w tablicy API
   GET https://api.trello.com/1/boards/633145777c28310194468541/cards?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 3.27kB, 181ms]
-  √  Should verify response status code
-  √  Should verify id board and id list
-  √  Should verify shortlink
+ * √  Should verify response status code
+ * √  Should verify id board and id list
+ * √  Should verify shortlink
 
 #### aktualizacja karty w tablicy API
   PUT https://api.trello.com/1/cards/633145797fd6e8102be2f547?name=&key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192&desc= [200 OK, 3.29kB, 322ms]
-  √  Should verify response status code
-  √  Should verify updated description
-  √  Should verify updated name
+ * √  Should verify response status code
+ * √  Should verify updated description
+ * √  Should verify updated name
 
 #### usunięcie karty z tablicy Api
   DELETE https://api.trello.com/1/cards/633145797fd6e8102be2f547?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 2.24kB, 513ms]
-  √  Should verify response status code
+ * √  Should verify response status code
 
 #### usunięcie stworzonej tablicy z API
   DELETE https://api.trello.com/1/boards/633145777c28310194468541?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 2.24kB, 596ms]
-  √  Should verify status code
+ * √  Should verify status code
 
 ┌─────────────────────────┬─────────────────────┬────────────────────┐
 │                         │            executed │             failed │
