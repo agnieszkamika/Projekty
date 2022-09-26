@@ -71,6 +71,9 @@ newman
 #### usunięcie stworzonej tablicy z API
   DELETE https://api.trello.com/1/boards/633145777c28310194468541?key=c40d5d8721be6b1550aaaa97482c94c2&token=499dfbb39b55649ef479e9a102eed83f2d1ed6161ae05b8d20e46e7c5d501192 [200 OK, 2.24kB, 596ms]
  * √  Should verify status code
+<img width="394" alt="image" src="https://user-images.githubusercontent.com/112310876/192225061-35aa6d07-26e4-467e-a8a4-363aeeaa7bda.png">
+
+
 
 ┌─────────────────────────┬─────────────────────┬────────────────────┐
 │                         │            executed │             failed │
