@@ -14,7 +14,7 @@ added 111 packages, and audited 112 packages in 14s
   run `npm fund` for details
 
 found 0 vulnerabilities
-+ newman run https://www.postman.com/collections/07c703ad06231f168662 -e 'https://api.getpostman.com/environments/21863765-11e68e06-3b2f-4660-953f-a841a9d0aa1d?apikey=PMAK-63313994dd455e5976129bf8-cff0d8a28ad63e316b9989dc6949f7b5f0'
++ newman run https://www.postman.com/collections/07c703ad06231f168662 -e 'https://api.getpostman.com/environments/21863765-11e68e06-3b2f-4660-953f-a841a9d0aa1d?apikey=PMAK-63313994dd455e576129bf8-cff0da28ad63e316b9989dc6949f7b5f'
 newman
 
 ## KOLEKCJA Trello1
