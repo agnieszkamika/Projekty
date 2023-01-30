@@ -34,7 +34,7 @@ W czasie kursu nauczyłam się nie tylko testować, ale rozwijałam swoje umiej�
 ## Zadania, które wykonywałam w czasie kursu:
 <center>
 
-[Podstawy Programowania] | [Podstawy Baz Danych] | [Techniki Projektowania Testw] |
+[Podstawy Programowania] | [Podstawy Baz Danych] | [Techniki Projektowania Testów] |
 [Zajęcia z Testowania] | [Selenium WebDriver]| [BDD] |
 [Projekt Końcowy](https://github.com/agnieszkamika/Projekty/tree/main/MrBuggy3)
 
